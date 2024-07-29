@@ -45,7 +45,7 @@ if (randomHour <= 12) {
 
 // the h1 tag
 ReactDOM.render(
-  <h1 style={heading}>
+  <h1 style={heading} className="heading">
     {greeting},Ted <br /> {activity}
   </h1>,
   document.querySelector("#root")
